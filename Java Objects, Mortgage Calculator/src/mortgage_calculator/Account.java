@@ -11,17 +11,22 @@ public class Account {
 		
 //declare all methods		
 		
-		public double getannualintrest(){
+		public static double getannualintrest(){
 			
 		}
 		
-		public double getmonthlyinterestrate(){
+		public static double getmonthlyinterestrate(){
 		}
 		
-		public double getmonthlyinterest(){
+		public static double getmonthlyinterest(){
 			
 		}
 		
+		public static double withdraw(){
+		}
+		
+		public static double deposit(){
+		}
 		
  this.id = 1;
  this.balance = 1;

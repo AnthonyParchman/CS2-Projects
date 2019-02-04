@@ -3,8 +3,13 @@ package mortgage_calculator;
 public class Calculator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Account.getannualintrest();
+		Account.getmonthlyinterestrate();
+		Account.getmonthlyinterest();
+		Account.withdraw();
+		Account.deposit();
+		
+		
 	}
 
 }
