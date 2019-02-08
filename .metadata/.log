@@ -26,3 +26,59 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-02-08 10:43:41.555 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-08 10:43:59.932
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-08 10:44:07.185
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Anthony'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.522
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.apidocs.rcp.views.apidocs' id and the 'API Docs' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.575
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.projectCoordinates' id and the 'Project Coordinates' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.583
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.modelRepositories' id and the 'Model Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.592
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.dependencyOverview' id and the 'Dependency Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.600
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.snipmatch.rcp.views.snippets' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.614
+!MESSAGE Removing part descriptor with the 'org.python.pydev.navigator.view' id and the 'PyDev Package Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.623
+!MESSAGE Removing part descriptor with the 'com.python.pydev.ui.hierarchy.PyHierarchyView' id and the 'Hierarchy View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.631
+!MESSAGE Removing part descriptor with the 'com.python.pydev.analysis.indexview.PyIndexView' id and the 'Index View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.639
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.PyCodeCoverageView' id and the 'Code Coverage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.647
+!MESSAGE Removing part descriptor with the 'org.python.pydev.debug.profile.ProfileView' id and the 'Profile (PyVmMonitor)' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.657
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.ReferrersView' id and the 'Referrers View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.665
+!MESSAGE Removing part descriptor with the 'org.python.pydev.views.CurrentExceptionView' id and the 'Caught Exceptions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-02-08 10:44:07.686
+!MESSAGE Removing part descriptor with the 'org.python.pydev.debug.pyunit.pyUnitView' id and the 'PyUnit' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.

@@ -1,37 +1,69 @@
 package mortgage_calculator;
 
+import java.util.*;
+
 public class Account {
- 
-	Account Account = new Account();
-//Declare all variables
-		private double id = 0; 
-		private double balance = 0;
-		private double annunalInterestRate = 0;
-		private int dateCreated = 0;
+
+//is this necessary?
+//	Account Account = new Account();
+
+//Declare all variables all are public and static for cross reference purposes 
+		private static int ID = 0; 
+		private static double Balance = 0;
+		private static double AnnunalInterestRate = 0;
+		private static double AnnualIntrest = 0;
+		private static Date DateCreated = new Date();
 		
-//declare all methods		
+//Default Constructor	
+		public Account() {
+			this.ID = 0;
+			this.Balance = 0;
+			this.AnnunalInterestRate = 0;
+			this.DateCreated = new Date();
+		}
+// working on non default constructors using this.<variable>		
+//		public Account() {
+//			 this.ID = 1;
+//			 this.Balance = 1;
+//			 this.AnnunalInterestRate = 0;
+//			 this.DateCreated = ;
+//		}
+//		
+//		public Account(int ID1, double Balance1) {
+//			ID = ID1;
+//			Balance = Balance1;
+//			DateCreated = new Date();
+//		}
 		
-		public static double getannualintrest(){
+		
+//declare all methods think i should pull these to a separate class 
+
+		
+		
+		
+		public static double GetAnnualIntrest(){
+			return AnnualIntrest;
 			
 		}
 		
-		public static double getmonthlyinterestrate(){
+		public static double GetMonthlyInterestRate(){
+			return AnnunalInterestRate;
 		}
 		
-		public static double getmonthlyinterest(){
+		public static double GetMonthlyInterest(){
+			return AnnualIntrest;
 			
 		}
 		
-		public static double withdraw(){
+		public static double Withdraw(){
+			return Balance;
 		}
 		
-		public static double deposit(){
+		public static double Deposit(){
+			return Balance;
 		}
 		
- this.id = ID;
- this.balance = 1;
- this.annualIntrestRate = 0;
- this.dateCreated = 00119;
- 
+
 }
-}
+
+
