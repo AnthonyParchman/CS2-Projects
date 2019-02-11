@@ -11,7 +11,9 @@ public class Account {
 		private static int ID = 0; 
 		private static double Balance = 0;
 		private static double AnnunalInterestRate = 0;
-		private static double AnnualIntrest = 0;
+		public static double AnnualIntrest = 0;
+		public static double MonthlyInterest = 0;
+		public static double MonthlyInterestRate = 0;
 		private static Date DateCreated = new Date();
 		
 //Default Constructor	
@@ -41,28 +43,32 @@ public class Account {
 		
 		
 		
-		public static double GetAnnualIntrest(){
+		public static double GetAnnualIntrest(){	 
+			System.out.println(AnnualIntrest);
 			return AnnualIntrest;
-			
 		}
 		
 		public static double GetMonthlyInterestRate(){
+			System.out.println(AnnunalInterestRate);
 			return AnnunalInterestRate;
 		}
 		
 		public static double GetMonthlyInterest(){
+			System.out.println(AnnualIntrest);
 			return AnnualIntrest;
 			
 		}
 		
-		public static double Withdraw(){
-			return Balance;
+		public static double Withdraw(double ammount){
+			return Balance += ammount;
 		}
 		
-		public static double Deposit(){
-			return Balance;
+		public static double Deposit(double ammount){
+			return Balance -= ammount;
 		}
-		
+		public static void printBalance(){
+			System.out.println(Balance);
+		}
 
 }
 

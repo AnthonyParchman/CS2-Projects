@@ -6,8 +6,9 @@ public class Calculator {
 		Account.GetAnnualIntrest();
 		Account.GetMonthlyInterest();
 		Account.GetMonthlyInterest();
-		Account.Withdraw();
-		Account.Deposit();
+		Account.Deposit(2000);
+		Account.Withdraw(123);
+		Account.printBalance();
 		
 		
 	}
