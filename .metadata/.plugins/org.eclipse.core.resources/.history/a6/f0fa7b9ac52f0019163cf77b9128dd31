@@ -6,7 +6,7 @@ import java.util.*;
 public class Account {
 
 //is this necessary?
-Account Account = new Account();
+//	Account Account = new Account();
 
 //Declare all variables all are public and static for cross reference purposes 
 		private static int ID = 0; 

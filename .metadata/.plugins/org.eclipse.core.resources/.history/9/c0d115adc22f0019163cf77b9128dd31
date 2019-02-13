@@ -2,17 +2,15 @@ package mortgage_calculator;
 
 import java.util.*;
 
-
 public class Account {
 
 //is this necessary?
-Account Account = new Account();
+//	Account Account = new Account();
 
 //Declare all variables all are public and static for cross reference purposes 
 		private static int ID = 0; 
 		private static double Balance = 0;
-		// 3rd floating point necessary
-		private static double AnnunalInterestRate = .047;
+		private static double AnnunalInterestRate = 0;
 		public static double AnnualIntrest = 0;
 		public static double MonthlyInterest = 0;
 		public static double MonthlyInterestRate = 0;
@@ -22,7 +20,7 @@ Account Account = new Account();
 		
 //Default Constructor	
 		public Account() {
-			this.ID = 1122;
+			this.ID = 0;
 			this.Balance = 0;
 			this.AnnunalInterestRate = 0;
 			this.DateCreated = new Date();
@@ -53,48 +51,27 @@ Account Account = new Account();
 			return AnnualIntrest;
 		}
 		
-		
-		public static double GetAnnualInterestRate(){
+		public static double GetMonthlyInterestRate(){
 			System.out.println(AnnunalInterestRate);
 			return AnnunalInterestRate;
 		}
 		
-		
-		public static double GetMonthlyInterestRate(){
-			MonthlyInterestRate = AnnunalInterestRate / 12;
-			System.out.println(MonthlyInterestRate);
-			return AnnunalInterestRate;
-		}
-		
-		
 		public static double GetMonthlyInterest(){
-			MonthlyInterest = AnnualIntrest / 12;
-			System.out.println(MonthlyInterest);
+			System.out.println(AnnualIntrest);
 			return AnnualIntrest;
 			
 		}
 		
-		
 		public static double Withdraw(double ammount){
-			return Balance -= ammount;
-		}
-		
-		public static double Deposit(double ammount){
 			return Balance += ammount;
 		}
 		
+		public static double Deposit(double ammount){
+			return Balance -= ammount;
+		}
 		public static void printBalance(){
 			System.out.println(Balance);
 		}
-		
-		public static void printDate(){
-			System.out.println(Account.DateCreated);
-		}
-		
-		public static void printID(){
-			System.out.println(Account.ID);
-		}
-
 
 }
 
