@@ -6,11 +6,11 @@ import java.util.*;
 public class Account {
 
 //is this necessary?
-Account Account = new Account();
+Account Account = new Account(ID = 1221, Balance = 20000);
 
 //Declare all variables all are public and static for cross reference purposes 
-		private static int ID = 1211; 
-		private static double Balance = 20000;
+		private static int ID = 0; 
+		private static double Balance = 0;
 		// 3rd floating point necessary
 		private static double AnnunalInterestRate = .047;
 		public static double AnnualIntrest = 0;
@@ -47,11 +47,6 @@ Account Account = new Account();
 		
 		
 		
-		public Account() {
-			// TODO Auto-generated constructor stub
-		}
-
-
 		public static double GetAnnualIntrest(){
 			AnnualIntrest = Balance * AnnunalInterestRate; 
 			System.out.println(AnnualIntrest);
@@ -93,7 +88,7 @@ Account Account = new Account();
 		}
 		
 		public static void printDate(){
-			System.out.println(DateCreated);
+			System.out.println(Account.DateCreated);
 		}
 		
 		public static void printID(){

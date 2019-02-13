@@ -9,8 +9,8 @@ public class Account {
 Account Account = new Account();
 
 //Declare all variables all are public and static for cross reference purposes 
-		private static int ID = 1211; 
-		private static double Balance = 20000;
+		private static int ID = 0; 
+		private static double Balance = 0;
 		// 3rd floating point necessary
 		private static double AnnunalInterestRate = .047;
 		public static double AnnualIntrest = 0;
@@ -21,8 +21,8 @@ Account Account = new Account();
 		private static double MonthlyinterestRate =  0;
 		
 //Default Constructor	
-		public Account(int ID, Double Balance) {
-			this.ID = ID;
+		public Account() {
+			this.setID(0);
 			this.Balance = 0;
 			this.AnnunalInterestRate = 0;
 			this.DateCreated = new Date();
@@ -47,11 +47,6 @@ Account Account = new Account();
 		
 		
 		
-		public Account() {
-			// TODO Auto-generated constructor stub
-		}
-
-
 		public static double GetAnnualIntrest(){
 			AnnualIntrest = Balance * AnnunalInterestRate; 
 			System.out.println(AnnualIntrest);
@@ -93,11 +88,11 @@ Account Account = new Account();
 		}
 		
 		public static void printDate(){
-			System.out.println(DateCreated);
+			System.out.println(Account.DateCreated);
 		}
 		
 		public static void printID(){
-			System.out.println(ID);
+			System.out.println(getID().ID);
 		}
 
 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;mortgage_calculator.Account.ID&apos; in &apos;mortgage_calculator.Account&apos;&#x0D;&#x0A;- Original project: &apos;Java Objects, Mortgage Calculator&apos;&#x0D;&#x0A;- Original element: &apos;mortgage_calculator.Account.ID&apos;&#x0D;&#x0A;- Getter method name: &apos;getID&apos;&#x0D;&#x0A;- Setter method name: &apos;setID&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;ID&apos;" flags="589830" getter="getID" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;mortgage_calculator{Account.java[Account^ID" insertion="9" setter="setID" stamp="1550086455346" version="1.0" visibility="1"/>
+</session>

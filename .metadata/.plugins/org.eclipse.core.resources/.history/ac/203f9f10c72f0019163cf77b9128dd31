@@ -47,11 +47,6 @@ Account Account = new Account();
 		
 		
 		
-		public Account() {
-			// TODO Auto-generated constructor stub
-		}
-
-
 		public static double GetAnnualIntrest(){
 			AnnualIntrest = Balance * AnnunalInterestRate; 
 			System.out.println(AnnualIntrest);

@@ -3,7 +3,7 @@ package mortgage_calculator;
 public class Calculator {
 
 	public static void main(String[] args) {
-		Account.Deposit(0);
+		Account.Deposit(23000);
 		Account.Withdraw(2500);
 		
 		Account.GetAnnualIntrest();
@@ -16,7 +16,6 @@ public class Calculator {
 		Account.printBalance();
 		Account.printDate();
 		Account.printID();
-		
 		
 		
 		
