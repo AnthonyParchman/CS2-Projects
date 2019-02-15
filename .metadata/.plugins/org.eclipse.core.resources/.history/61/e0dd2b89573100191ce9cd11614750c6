@@ -1,0 +1,12 @@
+package cointoss;
+
+public class TestEnv {
+
+	public static void main(String[] args) {
+		System.out.println("Thesting Please Ignore");
+		
+		CoinClass coin = new CoinClass(); 
+
+	}
+
+}
