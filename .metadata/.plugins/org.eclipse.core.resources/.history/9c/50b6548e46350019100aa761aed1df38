@@ -1,0 +1,21 @@
+package workenvyro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Testing Please Ignore");
+		
+		int LoopLength = 100;
+		 
+	
+
+		for(int LoopLength1; LoopLength1 <=0; LoopLength1 --);
+		{System.out.println(LoopLength);}
+		
+		
+		
+		
+		return Result;
+		
+	}
+}
