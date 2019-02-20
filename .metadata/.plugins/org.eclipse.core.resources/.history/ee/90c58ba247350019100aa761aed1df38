@@ -5,8 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Testing Please Ignore");
 		
-	 for (int LoopLength = 1; LoopLength <= 100; LoopLength++) 
-		    System.out.println("Value of Loop Length:" + LoopLength); 
+		int LoopLength = 100;
+		 
+	
+
+		for(int x = 100 ; x <=0; x++);
+			System.out.println(x);
+		
 
 		
 	}
