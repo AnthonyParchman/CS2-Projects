@@ -1,0 +1,25 @@
+package unicornisland;
+
+import java.util.Random;
+
+public class Race {
+
+	public static void main(String[] args) {
+		System.out.println("Testing Please Ignore");
+		
+		double unicornspeed = 1;
+		sector1(unicornspeed);
+		System.out.println();
+
+	}
+
+	public static int sector1(double unicornspeed) {
+		Random rand = new Random();
+		
+		int speed = (int) (rand.nextInt(50) + unicornspeed);
+		System.out.println(speed);
+		return speed;
+		
+	}
+
+}
