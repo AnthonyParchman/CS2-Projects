@@ -1,0 +1,57 @@
+
+package unicornisland;
+import java.util.Random;
+
+public class Race {
+
+	public static void main(String[] args) {
+
+		System.out.println("Testing Please Ignore");
+		int iterationsector1= 5;
+		int unicornspeed = 1;
+		double TyreEfficency = 15;
+
+		System.out.println("time in sector one is " +
+		sector1(unicornspeed, iterationsector1, TyreEfficency));
+
+
+	}
+
+	public static double sector1(int unicornspeed,
+			int iterationsector1, double tyreEfficency) {
+		Random rand = new Random();
+		
+		double realtivecurve = 0.03;
+		int totalSpeed = 0;
+		for (int iterations = 0; iterations<5; iterations++)
+		{
+			int iterationspeed = rand.nextInt(15);
+			
+			totalSpeed = totalSpeed + iterationspeed;
+			System.out.println(totalSpeed);
+		}
+
+		int speed = (int) ((totalSpeed/5) + unicornspeed);
+
+		System.out.println("Speed in Sector one is " + speed);
+	
+
+		if(speed < 5){
+
+			System.out.println("there was a crash unicorn is down in sector 1");
+
+		}else{
+
+			System.out.println("Solid sector");
+		}
+
+		double timesector1 =
+				(double)1000/(double)((double)speed * tyreEfficency);
+
+		tyreEfficency = tyreEfficency - realtivecurve;
+
+		return timesector1;
+
+	}
+
+}
